@@ -1,0 +1,31 @@
+.userwrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.addlink{
+    margin-top: 10px;
+}
+
+.addfile{
+    margin-top: 10px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .addlink{
+        margin-top: 20px;
+    }
+    
+    .addfile{
+        margin-top: 20px;
+    }
+    .userwrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}

@@ -1,0 +1,7 @@
+.photosWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-basis: 33%;
+}

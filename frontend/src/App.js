@@ -1,6 +1,6 @@
 import "./App.css";
 import Home from "./components/home/Home";
-import User from "./components/User";
+import Photo from "./components/Photo";
 
 function App() {
   return (
@@ -9,7 +9,7 @@ function App() {
         <h1 className="proTitle">Meme gallery</h1>
       </div>
       <div>
-        <User />
+        <Photo />
       </div>
       <div>
         <Home />

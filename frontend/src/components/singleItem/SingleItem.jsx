@@ -13,6 +13,7 @@ const handleDelete = async (id) => {
 
 const SingleItem = ({ photo }) => {
   const PF = "http://localhost:5000/images/";
+  console.log(photo)
   return (
     <div className="photowrapper">
       <div>
